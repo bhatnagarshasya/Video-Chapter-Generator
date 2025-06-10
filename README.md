@@ -147,25 +147,6 @@ Chapter description...
   - Use smaller model size (e.g., "tiny" or "base")
   - Process shorter videos
 
-## Troubleshooting
-
-1. **FFmpeg not found**:
-   - Ensure FFmpeg is installed and in system PATH
-   - Restart terminal after installation
-
-2. **NLTK data missing**:
-   - Run NLTK download commands again
-   - Check internet connection
-
-3. **Out of memory**:
-   - Use smaller Whisper model
-   - Process video in smaller chunks
-   - Close other applications
-
-4. **Slow processing**:
-   - Enable GPU if available
-   - Use smaller model size
-   - Reduce video quality before processing
 
 ## License
 
