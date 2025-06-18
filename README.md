@@ -11,16 +11,29 @@ An intelligent system that automatically generates chapter markers for long vide
   - Transition detection
 
 - **Chapter Generation**
-  - Meaningful chapter titles
+  - Headline-style, meaningful chapter titles (not just transcript fragments)
   - Accurate timestamps
-  - Description writing
-  - Duration optimization
+  - Multi-sentence, informative chapter descriptions
+  - Duration optimization (min/max chapter length, max 20 chapters)
 
 - **Export Options**
   - YouTube format
-  - Video editor markers
+  - Video editor markers (SRT)
   - SRT/VTT files
   - JSON metadata
+
+## Planned Features (Future Roadmap)
+
+- **Thumbnail Generation:**
+  - Automatically select or generate a thumbnail for each chapter based on video content.
+- **Preview Generation:**
+  - Create short video previews or GIFs for each chapter to enhance navigation and user experience.
+- **Visual Scene Detection:**
+  - Use computer vision to detect scene changes and further improve chapter segmentation accuracy.
+- **Multi-language Support:**
+  - Support for non-English videos using Whisper's multilingual capabilities.
+- **SEO Optimization:**
+  - Generate SEO-friendly chapter titles and descriptions for better discoverability.
 
 ## Prerequisites
 
@@ -73,17 +86,13 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('averaged_perceptr
 
 ## Usage
 
-1. Place your video file in the project directory. The video should be in a common format (MP4, MKV, AVI, etc.).
+1. Place your video file in the project directory or use a YouTube link.
 
-2. Update the video path in `example.py`:
-```python
-# Change this line in example.py
-video_path = "your_video.mp4"  # Replace with your video filename
-```
-
-3. Run the script:
+2. Run the script:
 ```bash
-python example.py
+python example.py --video "your_video.mp4" --model base
+# or
+python example.py --youtube "YOUTUBE_URL" --model base
 ```
 
 The script will:
@@ -99,21 +108,21 @@ The script will:
 
 1. **YouTube Format** (`chapters_youtube.txt`):
 ```
-0:00:00 Introduction
-0:05:30 Main Topic
-0:15:45 Conclusion
+0:00:00 Main Theme Of Karma
+0:05:30 Understanding Life's Uncertainties
+0:15:45 Developing Spiritual Discipline
 ```
 
 2. **SRT Format** (`chapters.srt`):
 ```
 1
 00:00:00,000 --> 00:05:30,000
-Introduction
+Main Theme Of Karma
 Chapter description...
 
 2
 00:05:30,000 --> 00:15:45,000
-Main Topic
+Understanding Life's Uncertainties
 Chapter description...
 ```
 
@@ -123,13 +132,13 @@ Chapter description...
   {
     "start_time": 0,
     "end_time": 330,
-    "title": "Introduction",
+    "title": "Main Theme Of Karma",
     "description": "Chapter description..."
   },
   {
     "start_time": 330,
     "end_time": 945,
-    "title": "Main Topic",
+    "title": "Understanding Life's Uncertainties",
     "description": "Chapter description..."
   }
 ]
