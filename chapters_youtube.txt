@@ -1,62 +1,20 @@
-0:00:00  Hi, I'm Shasa Bhattanasar and today I'll show you how I use NISIS to scan my Windows 11 system
-0:00:10  for security weaknesses.
-0:00:11  We start with downloading NISIS, setting it up, configuring a scan and then reviewing the
-0:00:16  key vulnerability that we found.
-0:00:18  So initially I'm on a tenable.com slash downloads so that I can download the latest version
-0:00:24  that NISIS currently has or you can still have your platform which can be Windows or it can
-0:00:30  be Linux or it can be a Mac.
-0:00:32  So a little about NISIS, NISIS Essentials particularly is a free vulnerability scanner.
-0:00:41  What a vulnerability scanner does is it checks for security whole thing of system like a
-0:00:46  help check for your computer.
-0:00:49  After you download the installation file and when you run the installation file,
-0:00:55  you'll be prompted with the well of a Windows installation wizard which is the deep audit plate.
-0:01:00  You accept the terms of the likes of the team and to select the destination folder by your own
-0:01:05  NISIS to be installed and then you click on the install button.
-0:01:09  After NISIS has finished installing it by default it is the page loads NISIS page loads in your
-0:01:18  default browser.
-0:01:19  If it doesn't you can just navigate to HTTP, remote IP address or local host.
-0:01:25  Comment K834.
-0:01:27  Let's just look at it right now.
-0:01:31  So this is the installation wizard that will be prompted with and this is the page that
-0:01:36  you'll find when NISIS is at loading on your browser.
-0:01:41  Once you click on connect via SSL, the browser will give you some warning about how it's not
-0:01:47  safe but you can just go ahead and ignore that and when you go through the login and the
-0:01:59  sign up, the plugins will take some time to compile and after they are done compiling
-0:02:05  you'll be erased with this prompt which says by the company SSL ensures.
-0:02:12  Let's just go to NISIS that is there on my laptop.
-0:02:17  So this is the official or the default look at address for where NISIS will be available which is local
-0:02:26  and it will be the default look.
-0:02:35  So once you've logged in, as you can see I've already conducted a few scans.
-0:02:47  Let's see the scan that I used for my Windows 11 system.
-0:02:51  First let's see its configuration.
-0:02:57  So as you can see it's a basic vulnerability scan.
-0:03:01  It's for an assignment and the target as well as it has my own IP address.
-0:03:14  We can actually go to the nrpr.net show space because it actually has my laptop,
-0:03:18  use the name and password into it and figured.
-0:03:23  But we used the authentic authentication method that we've used is password and that is done through SSL.
-0:03:32  And if I show the plugin part, I haven't said plenty specific plugins because NISIS knows that this is a basic vulnerability scan.
-0:03:43  And it automatically can select those particular plugins that are required for a basic vulnerability scan.
-0:03:50  So then you click on new scan.
-0:03:54  You can just select the basic network scan from here and it will just really navigate to this space that I've just shown you.
-0:04:01  And therefore it can just from here it knows which plugins are to be used.
-0:04:08  Now let's check out some of the vulnerability or the vulnerabilities space that it gave me.
-0:04:13  As you can see NISIS what it does is it showcases the vulnerabilities on the basis of their impact.
-0:04:22  So particularly at the top most then high medium low information.
-0:04:26  As you can see our system doesn't have that many vulnerabilities which is actually good for us.
-0:04:33  But for now let's focus on our results and see the actual vulnerabilities that showed up.
-0:04:41  Let's just navigate to it.
-0:04:46  Right.
-0:04:53 The window defender firewall block most inbound traffic. The most important part of the message was the host base firewall.
-0:05:08  Proves the immediate accessibility to detect deep vulnerabilities which is a positive sign of reduce attacks of this.
-0:05:17  If a window firewall is like a strong lock on your house that can help reduce risks.
-0:05:28  If the most important or the most medium vulnerability that was found on my system was the SSL certificate expiry.
-0:05:39  SSL certificate is like to digital ID card for secure connections. If it expired or self signed it's untrusted and could be let attackers intercept data. To fix this one could one should replace them with valid certificates from our trusted source
-0:06:04  SSL self signed certificate also falls into this same category of certificate expiry.
-0:06:09 A self signed certificate is not trusted by browsers of clients and it could enable a potential mile in the middle attack.  I mean the mitigation method that you would implement and would be the same as in a self signed certificates.
-0:06:23  What is the issue but the mitigation as a is the same.
-0:06:28  Access the hyper text transfer protocol which is also an information output so STTP is the language websites used to communicate with your browser.
-0:06:38  All right so this finding shows detail like the server version and security setting such as it transport security which ensures secure connections since these settings are properly configured.
-0:06:52 There's no immediate risk however one should always review these headers the information the headers that messes out messes results show.
-0:07:09  To summarize this showed that my system is most secure thanks to the fireball but the SSL certificate shows need fixing to prevent attacks.
-0:07:18  Think of SSL certificates as outdated locks that need updating and so one should replace these certificates keep the fireball active and keep running regular scams to say safe.
-0:07:33  That's how I have used messes to scan my to scan my laptop and identify security always remember that regular scan and updates ecosystem protected thanks for watching.
+00:00:00,000 Karma Is Something That Is Manmade, Which We Carry
+00:01:07,520 Sakalam Aritorn On Trs
+00:03:09,759 Karma Is Something Which We Carry From Many Lives, Past
+00:05:16,360 Spirituality Says, Your Present Life Is Nothing But Your Past
+00:07:18,360 Secret Of Life Is Connected To These Karmas
+00:09:29,360 Good Or Bad Karma Is Karma, That You Have To Come
+00:11:31,360 Way We Perform Actions In Our Life Is Also Like Blind
+00:14:36,360 Damage To Your Personality, It Means
+00:16:38,360 Happens In Everybody's Life. If You Know Human
+00:17:44,359 Think Perfection Is To Just Stay Still As Life Happens
+00:19:47,359 Sadhana: Hundreds And Thousands Of Sadhana
+00:22:51,359 Mantra Is Perfect. Mantra Is Fine. Mant
+00:25:56,359 Karma Is Expressed In A Beautiful Way In Astrology
+00:27:58,359 Think Working Hard And Being Disciplined, Plus Kindness
+00:30:03,359 Let Every Action Be Performed As An Offering To The Divine
+00:31:06,359 Rock Bottom, How Do You Handle
+00:33:09,359 Yoga Says, Yoga Karma Sukhaushalam
+00:36:13,360 Deposit Good Actions And Wait For Matured,
+00:38:18,360 Maureen Mccormick: I Think The Nature Of Life
+00:41:23,360 Ma's Latest Book, The R.s. Manum

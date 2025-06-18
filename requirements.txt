@@ -7,4 +7,5 @@ scikit-learn>=1.0.2
 nltk>=3.8.1
 python-dotenv>=1.0.0
 tqdm>=4.65.0
-pydub>=0.25.1 
+pydub>=0.25.1
+yt-dlp>=2023.12.30 
