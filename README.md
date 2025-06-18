@@ -95,6 +95,16 @@ python example.py --video "your_video.mp4" --model base
 python example.py --youtube "YOUTUBE_URL" --model base
 ```
 
+### Model Size Options
+- The `--model` argument controls the Whisper model size used for transcription and chapter generation.
+- Available options:
+  - `tiny`   (fastest, least accurate)
+  - `base`   (fast, balanced)
+  - `small`  (good accuracy, moderate speed)
+  - `medium` (high accuracy, slower)
+  - `large`  (best accuracy, slowest, most resource-intensive)
+- **Tip:** For quick tests or long videos, use `tiny` or `base`. For best accuracy, use `medium` or `large` (requires more RAM/VRAM).
+
 The script will:
 - Extract audio from your video
 - Transcribe the audio using Whisper
